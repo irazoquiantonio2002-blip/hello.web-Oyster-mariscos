@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Oyster Mariscos</title>
+  <desc id="desc">Isotipo de Oyster Mariscos con concha y ola.</desc>
+  <defs>
+    <linearGradient id="shell" x1="34" y1="26" x2="126" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7be0ff"/>
+      <stop offset="1" stop-color="#0078b7"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#001827" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <circle cx="80" cy="80" r="67" fill="#062d48"/>
+    <path d="M80 129c-34-6-57-28-57-54 0-29 25-52 57-52s57 23 57 52c0 14-7 27-18 37 8-2 16-6 25-11-13 21-34 31-64 28Z" fill="url(#shell)"/>
+    <path d="M42 78c16-9 30-26 38-51m0 99c0-39 0-68 0-99m37 82C98 78 88 51 80 27M57 116c8-34 15-63 23-89" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".9"/>
+    <path d="M23 123c45 13 79 3 117-20" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+    <path d="M25 123c44 10 78 1 113-20" fill="none" stroke="#f6c61a" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>
